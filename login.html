@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- link css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>BookStoreDesign</title>
+</head>
+
+<body>
+    <!-- navbar start  -->
+    <div class="main_body">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-11 px-0">
+                <header class="nav_wrapper">
+                    <nav class="navbar navbar-expand-lg py-md-4">
+                        <div class="nav_logo">
+                            <a class="navbar-brand ms-md-4 me-0" href="#"><img src="assets/img/nav_logo.svg" alt=""></a>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-md-4">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">ACCUEIL</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Livres</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Nouveau</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Offre</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Abonner</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="nav_logo">
+                                <a class="navbar-brand" href="#"><img src="assets/img/cart.png" alt=""></a>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+
+                <!-- login section start-->
+
+                <section class="login_body">
+                    <div class="container">
+                        <div class="num_4">
+<img src="assets/img/num4.svg" alt="">
+                        </div>
+                        <div class="login_inner">
+                            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                        data-bs-target="#home" type="button" role="tab" aria-controls="home"
+                                        aria-selected="true">connectez-vous</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                        data-bs-target="#profile" type="button" role="tab" aria-controls="profile"
+                                        aria-selected="false">S'inscrire</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                    aria-labelledby="home-tab">
+                                    <div class="login_window">
+                                        <div class="input_group d-flex">
+                                            <img src="assets/img/email.svg" alt="" class="mt-md-2">
+                                            <input type="email" class="form-control" placeholder="Email">
+                                        </div>
+                                        <div class="input_group d-flex">
+                                            <img src="assets/img/password.svg" alt="">
+                                            <input type="password" class="form-control" placeholder="Mot de passe">
+                                        </div>
+                                        <div class="flex_space_bt">
+                                            <div class="login_btn flex_align">
+                                                <a href="">se-connecteR</a>
+                                            </div>
+                                            <a href="" class="mot_txt">Mot de passe oublié</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="login_window">
+                                        <div class="input_group">
+                                            <input type="text" class="form-control ps-md-4" placeholder="Nom">
+                                        </div>
+                                        <div class="input_group">
+                                            <input type="text" class="form-control ps-md-4" placeholder="Prénom">
+                                        </div>
+                                        <div class="input_group">
+                                            <input type="email" class="form-control ps-md-4" placeholder="Email">
+                                        </div>
+                                        <div class="input_group">
+                                            <input type="password" class="form-control ps-md-4"
+                                                placeholder="Mot de passe">
+                                        </div>
+                                        <div class="input_group">
+                                            <input type="password" class="form-control ps-md-4 mb-md-5"
+                                                placeholder="CIN">
+                                        </div>
+                                        <div class="login_btn flex_align mx-auto">
+                                            <a href="">Enregistrer</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- login section end-->
+
+            </div>
+
+            <!-- right bar start -->
+            <div class="col-md-1 px-0 border_left">
+                <div class="right_bar">
+                    <div class="search_sec flex_align">
+                        <img src="assets/img/search.svg" alt="">
+                        <!-- <img src="assets/img/Rectangle 60.png" alt=""> -->
+                    </div>
+                    <div class="middle_sec flex_align">
+                        <div class="social_icons">
+                            <a href=""><img src="assets/img/instagram.svg" alt=""></a>
+                            <a href=""><img src="assets/img/twitter.svg" alt=""></a>
+                            <a href=""><img src="assets/img/messenger.svg" alt=""></a>
+                            <a href=""><img src="assets/img/snapchat.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- right bar end -->
+    </div>
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
